@@ -21,6 +21,18 @@ HELP_2 = """
 🔐 <b>/authusers</b> – Show the list of currently authorized users in the group.
 """
 
+HELP_3 = """
+<b><u>𝖦𝖫𝖮𝖡𝖠𝖫 𝖡𝖠𝖭</u></b> 🌍 [Sudo Users Only]
+
+🚫 <b>Global Ban (G-Ban)</b> allows you to ban a user from all groups where the bot is present.
+
+🔨 <b>/gban [username/reply]</b> – Globally ban a user from all served chats.
+🕊️ <b>/ungban [username/reply]</b> – Remove a global ban from a user.
+📜 <b>/gbannedusers</b> – Show the list of globally banned users.
+
+⚠️ <b>Use with caution:</b> This action affects the user across the entire bot network.
+"""
+
 HELP_4 = """
 <b><u>𝖢𝖧𝖠𝖳 𝖡𝖫𝖠𝖢𝖪𝖫𝖨𝖲𝖳</u></b> 🔒 [Sudo Users Only]
 
