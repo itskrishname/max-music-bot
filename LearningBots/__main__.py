@@ -46,6 +46,7 @@ async def init():
             BANNED_USERS.add(user_id)
     except:
         pass
+    await sudo()
     await app.start()
     for all_module in ALL_MODULES:
         importlib.import_module("LearningBots.plugins" + all_module)
