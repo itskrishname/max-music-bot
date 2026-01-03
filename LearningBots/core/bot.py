@@ -2,6 +2,9 @@ import uvloop
 uvloop.install()
 
 import asyncio
+# Create and set a new event loop to avoid RuntimeError in pyrogram import
+loop = asyncio.new_event_loop()
+asyncio.set_event_loop(loop)
 from pyrogram import Client, errors
 from pyrogram.enums import ChatMemberStatus, ParseMode
 
