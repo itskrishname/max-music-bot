@@ -472,7 +472,13 @@ async def play_music(client, CallbackQuery, _):
         ex_type = type(e).__name__
         err = e if ex_type == "AssistantErr" else _["general_2"].format(ex_type)
         return await mystic.edit_text(err)
-    return await mystic.delete()
+    await mystic.delete()
+    return await play_logs(
+        CallbackQuery.message,
+        streamtype="youtube",
+        user=CallbackQuery.from_user,
+        query=details["title"],
+    )
 
 
 @app.on_callback_query(filters.regex("AnonymousAdmin") & ~BANNED_USERS)

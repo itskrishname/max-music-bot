@@ -1,4 +1,4 @@
-HELP_1 = """<blockquote expandable><b><u>𝖠𝖣𝖬𝖨𝖭 𝖢𝖮𝖬𝖬𝖠𝖭𝖣𝖲</u></b> 🎵
+HELP_1 = """<blockquote><b><u>𝖠𝖣𝖬𝖨𝖭 𝖢𝖮𝖬𝖬𝖠𝖭𝖣𝖲</u></b> 🎵
 
 💬 𝖳𝗂𝗉: To control music in a channel, just add <b>𝖼</b> at the beginning of the command.  
 Example: <code>/cpause</code>
@@ -10,7 +10,7 @@ Example: <code>/cpause</code>
 🎯 <b>/player</b> – Display an interactive player panel.  
 🎯 <b>/queue</b> – Show the list of queued tracks.</blockquote>"""
 
-HELP_2 = """<blockquote expandable>
+HELP_2 = """<blockquote>
 <b><u>𝖠𝖴𝖳𝖧 𝖴𝖲𝖤𝖱𝖲</u></b> 🛡
 
 👥 <b>Auth users</b> can use admin-level commands in the bot <i>without</i> being actual chat admins.
@@ -20,7 +20,7 @@ HELP_2 = """<blockquote expandable>
 🔐 <b>/authusers</b> – Show the list of currently authorized users in the group.</blockquote>
 """
 
-HELP_3 = """<blockquote expandable>
+HELP_3 = """<blockquote>
 <b><u>𝖦𝖫𝖮𝖡𝖠𝖫 𝖡𝖠𝖭</u></b> 🌍 [Sudo Users Only]
 
 🚫 <b>Global Ban (G-Ban)</b> allows you to ban a user from all groups where the bot is present.
@@ -32,7 +32,7 @@ HELP_3 = """<blockquote expandable>
 ⚠️ <b>Use with caution:</b> This action affects the user across the entire bot network.</blockquote>
 """
 
-HELP_4 = """<blockquote expandable>
+HELP_4 = """<blockquote>
 <b><u>𝖢𝖧𝖠𝖳 𝖡𝖫𝖠𝖢𝖪𝖫𝖨𝖲𝖳</u></b> 🔒 [Sudo Users Only]
 
 🧱 <b>Restrict unwanted or abusive chats</b> from accessing the bot to keep it safe and focused.
@@ -44,7 +44,7 @@ HELP_4 = """<blockquote expandable>
 ⚠️ Use responsibly. This feature is powerful and meant for protection.</blockquote>
 """
 
-HELP_5 = """<blockquote expandable>
+HELP_5 = """<blockquote>
 <b><u>𝖡𝖫𝖮𝖢𝖪 𝖴𝖲𝖤𝖱𝖲</u></b> 🧨 [Sudo Users Only]
 
 🙅 <b>Block users from interacting with the bot commands entirely.</b> This helps prevent spam or misuse.
@@ -56,7 +56,7 @@ HELP_5 = """<blockquote expandable>
 ⚠️ <i>Blocked users will be ignored completely by the bot.</i></blockquote>
 """
 
-HELP_6 = """<blockquote expandable>
+HELP_6 = """<blockquote>
 <b><u>𝖢𝖧𝖠𝖭𝖭𝖤𝖫 𝖯𝖫𝖠𝖸</u></b> 📺
 
 🎤 <b>Stream audio or video directly in your connected channel's video chat!</b>
@@ -71,7 +71,7 @@ HELP_6 = """<blockquote expandable>
 <i>➤ Make sure the bot has required permissions and is an admin in both the group</i></blockquote>
 """
 
-HELP_7 = """<blockquote expandable>
+HELP_7 = """<blockquote>
 <b><u>𝖠𝖢𝖳𝖨𝖵𝖤 𝖢𝖠𝖫𝖫𝖲</u></b> 🎙 [Sudo Users Only]
 
 🎚 <b>Monitor all active voice and video streams across the bot's network.</b>
@@ -81,7 +81,7 @@ HELP_7 = """<blockquote expandable>
 🧠 <i>This command helps you keep track of live streams handled by the bot in real-time.</i></blockquote>
 """
 
-HELP_8 = """<blockquote expandable>
+HELP_8 = """<blockquote>
 <b><u>𝖫𝖮𝖮𝖯 𝖲𝖳𝖱𝖤𝖠𝖬</u></b> 🔂
 
 🔄 <b>Loop the currently playing stream automatically.</b>
@@ -95,7 +95,7 @@ Use this to play the same track multiple times without re-queuing it manually.
 📝 <i>Helpful when you want to replay a specific song multiple times during a session.</i></blockquote>
 """
 
-HELP_9 = """<blockquote expandable>
+HELP_9 = """<blockquote>
 <b><u>𝖬𝖠𝖨𝖭𝖳𝖤𝖭𝖠𝖭𝖢𝖤 𝖬𝖮𝖣𝖤</u></b> 🧰 [Sudo Users Only]
 
 🧑‍🔧 <b>Essential tools for bot management and debugging.</b>
@@ -111,7 +111,7 @@ HELP_9 = """<blockquote expandable>
 📝 <i>Only authorized sudoers should use these powerful administrative controls.</i></blockquote>
 """
 
-HELP_10 = """<blockquote expandable>
+HELP_10 = """<blockquote>
 <b><u>𝖯𝖨𝖭𝖦 & 𝖲𝖳𝖠𝖳𝖲</u></b> 🖥
 
 🔍 <b>Monitor the bot's performance and get quick access to system status.</b>
@@ -124,7 +124,7 @@ HELP_10 = """<blockquote expandable>
 🧩 <i>Use these commands to ensure everything is running smoothly or to debug latency issues.</i></blockquote>
 """
 
-HELP_11 = """<blockquote expandable>
+HELP_11 = """<blockquote>
 <b><u>𝖯𝖫𝖠𝖸 𝖢𝖮𝖬𝖬𝖠𝖭𝖣𝖲</u></b> 🎼
 
 🎥 <b>v</b> = Play in video mode  
@@ -136,7 +136,7 @@ HELP_11 = """<blockquote expandable>
 📝 <i>Use force play responsibly — it will disrupt what's currently playing.</i></blockquote>
 """
 
-HELP_12 = """<blockquote expandable>
+HELP_12 = """<blockquote>
 <b><u>𝖲𝖧𝖴𝖥𝖥𝖫𝖤 𝖰𝖴𝖤𝖴𝖤</u></b> 🎲
 
 🔃 <b>/shuffle</b> – Randomly reshuffles the current queue of tracks.  
@@ -145,7 +145,7 @@ HELP_12 = """<blockquote expandable>
 ✨ <i>Use shuffle to surprise your audience or break the monotony of the playlist!</i></blockquote>
 """
 
-HELP_13 = """<blockquote expandable>
+HELP_13 = """<blockquote>
 <b><u>𝖲𝖤𝖤𝖪 𝖢𝖮𝖬𝖬𝖠𝖭𝖣𝖲</u></b> ⏭
 
 ⏩ <b>/seek [seconds]</b> – Jump forward in the stream.  
@@ -154,7 +154,7 @@ HELP_13 = """<blockquote expandable>
 ⚠️ <i>Only works if the media source supports it.</i></blockquote>
 """
 
-HELP_14 = """<blockquote expandable>
+HELP_14 = """<blockquote>
 <b><u>𝖡𝖱𝖮𝖠𝖣𝖢𝖠𝖲𝖳 𝖥𝖤𝖠𝖳𝖴𝖱𝖤</u></b> 📣 [Only for Sudo Users]
 
 📝 <b>/broadcast [message or reply]</b> – Send messages to users or chats.
@@ -173,7 +173,7 @@ Broadcast Modes:
 ⚠️ <i>Don’t spam! Telegram may limit your bot.</i></blockquote>
 """
 
-HELP_15 = """<blockquote expandable>
+HELP_15 = """<blockquote>
 <b><u>𝖲𝖯𝖤𝖤𝖣 𝖢𝖮𝖬𝖬𝖠𝖭𝖣𝖲</u></b> 🚀 [Admins Only]
 
 ⏱ <b>/speed</b> or <b>/playback</b> – Set stream speed.  
